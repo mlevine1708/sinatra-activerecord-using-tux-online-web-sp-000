@@ -10,4 +10,4 @@ ActiveRecord::Base.establish_connection(
 
 require './app'
 require_all 'models'
-require 'models/user.rb'
+require_relative 'models/user.rb'
